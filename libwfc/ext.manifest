@@ -5,18 +5,15 @@ platforms:
     x86-win32:
         context:
             defines: ["STBI_NO_SIMD"]
-
     x86_64-win32:
         context:
             defines: ["STBI_NO_SIMD"]
     x86_64-osx:
-      context:
+        context:
             defines: ["STBI_NO_SIMD"]
-    
-     arm64-ios:
-      context:
+    arm64-ios:
+        context:
             defines: ["STBI_NO_SIMD"]
-    
-     armv7-ios:
-      context:
+    armv7-ios:
+        context:
             defines: ["STBI_NO_SIMD"]
